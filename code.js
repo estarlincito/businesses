@@ -133,8 +133,8 @@ social_network_page(
 const businesses = (id, arr) => {
   for (const property in arr) {
     id.innerHTML += `
-      <a href="/businesses/${property.toLowerCase()}-social-network.html" class="account__app">
-      <img src="../img/${property}.jpg" alt="${property}" class="icon_home">
+      <a href="https://${window.location.host}/businesses/businesses/${property.toLowerCase()}-social-network.html" class="account__app">
+      <img src="../img/${property.toLowerCase()}.jpg" alt="${property}" class="icon_home">
       ${property}</a
     >
   `;
@@ -145,7 +145,7 @@ const businesses = (id, arr) => {
 const social_network = (id, arr) => {
   for (const property in arr) {
     id.innerHTML += `
-      <a href="/social_network/${property.toLowerCase()}.html" class="account__app">
+      <a href="https://${window.location.host}/businesses/social_network/${property.toLowerCase()}.html" class="account__app">
       <svg class="icon icon-${property}">
       <use xlink:href="../icomoon/icon.svg#icon-${property}"></use>
       </svg>
