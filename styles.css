@@ -7,26 +7,35 @@ a {
   text-decoration: none;
   color: black;
   font-size: 20px;
+  opacity: 0.8;
 }
 
-#menu{
+a:hover {
+  opacity: 1;
+}
+
+a:active {
+  opacity: 1;
+}
+
+#menu {
   display: grid;
   justify-content: center;
   background-color: black;
   padding: 20px;
 }
 
-#menu a{
+#menu a {
   color: white;
-  background-color: rgb(119, 119, 119);
   padding: 10px;
   border-radius: 10px;
+  font-size: 15px;
 }
+
 .container {
   display: grid;
   align-items: center;
   justify-content: center;
-  /* min-height: 700px; */
   padding: 30px;
 }
 
@@ -34,6 +43,11 @@ a {
   text-align: center;
 }
 
+.sub_title {
+  text-align: center;
+  margin-top: 40px;
+  color: rgb(39, 37, 37);
+}
 .account {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -64,36 +78,8 @@ a {
   justify-content: center;
   padding: 30px;
 }
-/* .linktr {
-  background-color: #129708;
-  color: white;
-}
-.twitter {
-  background-color: #1da1f2;
-  color: white;
-}
 
-.youtube {
-  background-color: red;
-  color: white;
-}
-
-.tiktok {
-  background-color: black;
-  color: white;
-}
-
-.instagram {
-  background-color: rgb(222, 57, 195);
-  color: white;
-}
-
-.facebook {
-  background-color: rgb(27, 140, 220);
-  color: white;
-} */
-
-.icon_home {
+.icon_bss {
   width: 100px;
   margin: auto;
   border-radius: 5px;
