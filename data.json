@@ -3,13 +3,8 @@
     { "name": "Estarlincito", "user_name": "estarlincito" },
     { "name": "Estarlincito Support's", "user_name": "estarlincitoS" },
     { "name": "Estarlincito Code", "user_name": "estarlincitoC" },
-    { "name": "Estarlincito Game", "user_name": "estarlincitoG" },
-    { "name": "Estarlincito Quote", "user_name": "estarlincitoQ" },
     { "name": "Estarlincito Sports", "user_name": "estarlincitoSP" },
-    { "name": "Estarlincito Movie Clips", "user_name": "estarlincitoMC" },
-    { "name": "Estarlincito Farandula", "user_name": "estarlincitoF" },
-    { "name": "Estarlincito Music", "user_name": "estarlincitoM" },
-    { "name": "Estarlincito Finanzas", "user_name": "estarlincitoFN" }
+    { "name": "Estarlincito Movie Clips", "user_name": "estarlincitoMC" }
   ],
 
   "app": [

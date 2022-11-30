@@ -5,7 +5,7 @@ const get_data = async () => {
   const response = await fetch("./data.json");
   const data = await response.json();
 
-  for (let i = 0; i < 6; i++) {
+  for (let i = 0; i < 2; i++) {
     //Set Businesses Data
     businessesID.innerHTML += `
     <a href="https://${
