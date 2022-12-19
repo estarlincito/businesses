@@ -18,21 +18,28 @@ a:active {
   opacity: 1;
 }
 
-#menu {
-  z-index: 100;
-  width: 100%;
-  position: fixed;
-  top: 0;
+body {
+  height: 100vh;
+}
+
+.menu {
+  background-color: black;
   display: grid;
   justify-content: center;
-  background-color: black;
+  align-items: center;
+  grid-template-columns: 100px 100px 100px;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  left: 0;
   padding: 30px;
 }
 
-#menu a {
+.menu__button {
   color: white;
-  padding: 10px;
-  border-radius: 10px;
+  text-align: center;
+  margin: 5px;
   font-size: 15px;
 }
 
@@ -49,9 +56,9 @@ a:active {
 }
 
 .sub_title {
+  color: rgb(39, 37, 37);
   text-align: center;
   margin-top: 40px;
-  color: rgb(39, 37, 37);
 }
 
 .header {
@@ -67,9 +74,9 @@ a:active {
 .header__quote {
   color: black;
   width: 500px;
+  margin: 10px;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
-  margin: 10px;
 }
 
 .header__quote__hr {
@@ -106,8 +113,8 @@ a:active {
 }
 
 .account__app {
-  border-style: solid;
   border-color: rgba(8, 2, 0, 0.408);
+  border-style: solid;
   display: grid;
   align-items: center;
   justify-content: center;
@@ -150,10 +157,10 @@ a:active {
 button {
   background-color: rgb(0, 0, 0);
   color: azure;
-  width: 150px;
   margin: auto;
   font-weight: bold;
   border: none;
+  width: 150px;
   padding: 10px;
   border-radius: 10px;
   margin-top: 20px;
